@@ -18,7 +18,7 @@ import java.util.Date;
 @Getter
 @EqualsAndHashCode
 @Builder
-final class AuthenticationResult implements IAuthenticationResult {
+final class AuthenticationResult implements IAuthenticationResult, Serializable {
     private static final long serialVersionUID = 1L;
 
     private final String accessToken;

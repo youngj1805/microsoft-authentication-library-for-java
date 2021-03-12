@@ -19,6 +19,8 @@ import java.util.Map;
 @AllArgsConstructor
 class Account implements IAccount {
 
+    private static final long serialVersionUID = 1L;
+
     String homeAccountId;
 
     String environment;
